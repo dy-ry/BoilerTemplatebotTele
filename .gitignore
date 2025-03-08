@@ -1,2 +1,20 @@
+# Lingkungan virtual
 .venv/
+venv/
+env/
+
+# File konfigurasi sensitif
 .env
+
+# File Python sementara
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File log
+*.log
+
+# Folder dan file lain yang tidak perlu
+*.DS_Store  # File macOS
+*.idea/     # Folder IntelliJ IDEA
